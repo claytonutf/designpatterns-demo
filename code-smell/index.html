@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exemplo de Code Smell</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 40px auto;
+    }
+
+    input {
+      width: 70%;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      background: #f2f2f2;
+      padding: 8px;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Lista de Tarefas (Código com Code Smell)</h2>
+
+  <input id="entradaTarefa" placeholder="Digite uma tarefa" />
+  <button id="botaoAdicionar">Adicionar</button>
+
+  <ul id="listaTarefas"></ul>
+
+  <script src="code-smell.js"></script>
+</body>
+</html>
